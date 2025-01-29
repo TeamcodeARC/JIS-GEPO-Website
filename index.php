@@ -5,7 +5,24 @@ require_once 'includes/header.php';
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/enhanced-styles.css">
 </head>
+
+<!-- Navbar Section -->
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.php" class="navbar-brand">JIS GEPO</a>
+        <ul class="navbar-menu">
+            <li><a href="programs.php">Programs</a></li>
+            <li><a href="partner.php">Partnerships</a></li>
+            <li><a href="events.php">Events</a></li>
+            <li><a href="admissions.php">Admissions</a></li>
+            <li><a href="research.php">Research</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- End of Navbar Section -->
+
 <main>
     <!-- Animated Hero Section -->
     <section class="hero-section">

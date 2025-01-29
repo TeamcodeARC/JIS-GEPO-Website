@@ -1,0 +1,35 @@
+/* Add smooth transitions and hover effects */
+* {
+  box-sizing: border-box;
+}
+
+.hero-content h1, .hero-content p {
+  animation: fade-up 1.2s ease forwards;
+}
+
+@keyframes fade-up {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Enhance link cards */
+.link-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.link-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+  }
+  .links-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+}
