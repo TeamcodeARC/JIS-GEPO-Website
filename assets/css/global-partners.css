@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Basic Layout */
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Sections */
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Interactive Map */
+.interactive-map {
+    margin-bottom: 40px;
+}
+.interactive-map h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Success Stories */
+.success-stories {
+    margin-bottom: 40px;
+}
+.success-stories h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Partnership Inquiry Form */
+.partnership-inquiry {
+    margin-bottom: 40px;
+}
+.partnership-inquiry h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.partnership-inquiry form {
+    display: flex;
+    flex-direction: column;
+}
+.partnership-inquiry form input,
+.partnership-inquiry form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.partnership-inquiry form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.partnership-inquiry form button:hover {
+    background-color: #0056b3;
+}
+
+/* Guidelines */
+.guidelines {
+    margin-bottom: 40px;
+}
+.guidelines h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
