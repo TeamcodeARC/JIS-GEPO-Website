@@ -5,7 +5,6 @@ require_once 'includes/header.php';
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/enhanced-styles.css">
 </head>
 
 <main>
