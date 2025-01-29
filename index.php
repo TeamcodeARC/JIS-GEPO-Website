@@ -1,7 +1,11 @@
 <?php
 require_once 'includes/header.php';
 ?>
-
+<head>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
 <main>
     <!-- Animated Hero Section -->
     <section class="hero-section">
